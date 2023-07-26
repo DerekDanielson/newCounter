@@ -1,0 +1,21 @@
+body {
+    background: rgb(218, 211, 211);
+}
+
+.container {
+    padding-left: 45%;
+    padding-top: 10%;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+#value {
+    padding-left: 7.5%;
+    font-size: 6rem;
+}
+
+.button-container {
+    
+}
