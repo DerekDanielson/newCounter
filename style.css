@@ -1,5 +1,5 @@
 body {
-    background: rgb(146, 143, 143);
+    background: rgb(96, 99, 134);
 }
 
 .container {
@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 #value {
@@ -16,6 +16,7 @@ h1 {
     font-size: 6rem;
 }
 
-.button-container {
-    color: l;
+button {
+    background-color: rgb(100, 99, 99);    
+    color: white;
 }
