@@ -7,10 +7,10 @@ const btns = document.querySelectorAll('.btn');
 
 btns.forEach(function(btn){
     btn.addEventListener('click', function(e){
-        const styles = e.currentTarget.classList;
-        if (styles.contains('decrease')){
+        const countBtn = e.currentTarget.classList;
+        if (countBtn.contains('decrease')){
             count--;
-        } else if (styles.contains('increase')){
+        } else if (countBtn.contains('increase')){
             count++;
         } else {
             count = 0;
@@ -23,6 +23,7 @@ btns.forEach(function(btn){
         } else {
             value.style.color = 'black';
         }
+
         value.textContent = count;
     });
 });
